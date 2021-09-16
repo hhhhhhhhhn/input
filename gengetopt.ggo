@@ -1,0 +1,6 @@
+package "input"
+version "1.0.0"
+usage   "input [OPTIONS]"
+
+option "history-file" H "Path to history file"       string              optional typestr="PATH"
+option "prompt"       p "The prompt to be displayed" string default="> " optional typestr="PROMPT"
